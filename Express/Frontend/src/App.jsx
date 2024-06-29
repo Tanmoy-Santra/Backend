@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-      <h1>chai and full stack</h1>
+      <h1>chai and full stack | youtube</h1>
       <p>JOKES: {jokes.length}</p>
       {
         jokes.map((joke) => (
