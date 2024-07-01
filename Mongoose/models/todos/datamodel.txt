@@ -1,0 +1,23 @@
+Explanation
+
+User Model (user.model.js)
+------------------------
+Defines the schema for a user, including fields for name, email, and password.
+Includes a reference to the Todo model to store the user's todos.
+
+SubTodo Model (sub_todo.model.js)
+--------------------------------
+Defines the schema for a sub-todo, which includes a title and a completed status.
+References the parent Todo to which it belongs.
+
+Todo Model (todo.model.js)
+--------------------------
+Defines the schema for a todo item, which includes a title, description, due date, and completed status.
+References the User who owns the todo and an array of SubTodo items.
+These models should give you a good starting point for managing users and their todo lists with sub-tasks in a MongoDB database using Mongoose.
+
+
+
+
+
+
